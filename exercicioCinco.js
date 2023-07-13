@@ -1,8 +1,8 @@
 //exercicio 5
 let prompt = require("prompt-sync")();
 
-let x = parseFloat(prompt("Digite o número de X: "));
-let y = parseFloat(prompt("Digite o número de Y: "));
+let x = parseInt(prompt("Digite o número de X: "));
+let y = parseInt(prompt("Digite o número de Y: "));
 
 if (x > y) {
   console.log(`Maior número: ${x}`);

@@ -1,11 +1,9 @@
 //exercicio 4
 let prompt = require("prompt-sync")();
 
-let x = parseFloat(prompt("Digite o número de X: "));
+let numero = parseInt(prompt("Digite um número: "));
 
-let numero = x % 2;
-
-if (numero == 0) {
+if (numero  % 2 == 0) {
   console.log("Número digitado é PAR!");
 } else {
   console.log("Número digitado é IMPAR!");
